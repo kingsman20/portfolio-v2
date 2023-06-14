@@ -15,7 +15,7 @@ const Navigation = () => {
                 'font-medium uppercase tracking-wider text-gray-900 transition-colors hover:text-sky-500 dark:text-white dark:hover:text-sky-500'
               }
             >
-              Paul Knulst
+              Kingsley Obot
             </a>
           </Link>
         </div>
@@ -40,17 +40,6 @@ const Navigation = () => {
               }
             >
               Blog
-            </a>
-          </Link>
-          <Link legacyBehavior href={'/supportme'}>
-            <a
-              className={
-                pathname === '/supportme'
-                  ? 'font-medium uppercase tracking-wider text-sky-500 transition-colors hover:text-sky-500 dark:text-sky-500 dark:text-white'
-                  : 'font-medium uppercase tracking-wider text-gray-900 transition-colors hover:text-sky-500 dark:text-white dark:hover:text-sky-500'
-              }
-            >
-              Support Me
             </a>
           </Link>
           <ThemeSwitch />
